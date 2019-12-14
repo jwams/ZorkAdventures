@@ -10,16 +10,14 @@ import { Map } from '../../../Models/Map';
   styleUrls: ['./editor.component.css']
 })
 export class EditorComponent implements OnInit {
-
-	name: String = "Justin";
 	
-	map: Map = new Map(16);
+	map: Map = new Map(10);
 	
 	index: Number = 1;
 	check: boolean = false;
 	
 	constructor() {
-
+		console.log(this.map.mapLayout[9][9]);
 	}
 
 	ngOnInit() {
