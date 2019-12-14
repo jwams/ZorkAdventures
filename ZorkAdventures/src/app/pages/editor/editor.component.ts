@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-//import { Map } from '../../../Models/Map.js';
-require('../../../Models/Map.ts');
+
+import { Map } from '../../../Models/Map';
+//import * from '../../../Models/Map';
+//import Map = require('../../../Models/Map');
+
 @Component({
   selector: 'app-editor',
   templateUrl: './editor.component.html',
@@ -25,7 +28,7 @@ export class EditorComponent implements OnInit {
 	
 	
 	setup() {
-		console.log(this.check + this.index);
+		console.log("Setup HIT");
 	}
 
 }
