@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-
+//import { Map } from '../../../Models/Map.js';
+require('../../../Models/Map.ts');
 @Component({
   selector: 'app-editor',
   templateUrl: './editor.component.html',
@@ -7,17 +8,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EditorComponent implements OnInit {
 
+	name: String = "Justin";
+	
+	map: Map = new Map(16);
+	
+	index: Number = 1;
+	check: boolean = false;
+	
 	constructor() {
 
 	}
 
 	ngOnInit() {
-		setup();
+		this.setup();
 	}
 	
 	
 	setup() {
-		console.log("TEST");
+		console.log(this.check + this.index);
 	}
 
 }
