@@ -6,7 +6,7 @@ export class Actions {
 	constructor(name: String) {}
 
 
-  function use() {}
+  use() {}
 
-  function pull(context:String[]) {}
+  pull(context:String[]) {}
 }

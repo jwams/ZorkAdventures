@@ -19,7 +19,7 @@ export class Player {
 	}
 
 
-	function Number getNewID() {
+	getNewID() {
 		return 123;
 	}
 }
