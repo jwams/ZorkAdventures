@@ -1,4 +1,4 @@
 export class Monster {
 
-	constructor(name: String) {}
+	constructor(name: string) {}
 }

@@ -7,9 +7,9 @@ export class Map {
 	public mapLayout: Object;
 
 	idCounter: number = 0;
-	size: Number;
+	size: number;
 
-	constructor(size) {
+	constructor(size: number) {
 
 		this.size = size;
 

@@ -1,4 +1,4 @@
 export class Skills {
 
-	constructor(name: String) {}
+	constructor(name: string) {}
 }

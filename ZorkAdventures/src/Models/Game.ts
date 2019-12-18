@@ -1,7 +1,7 @@
 export class Game {
 
-	playersXPosition: Number;
-  playersYPosition: Number;
+	playersXPosition: number;
+  playersYPosition: number;
 
-	constructor(name: String) {}
+	constructor(name: string) {}
 }

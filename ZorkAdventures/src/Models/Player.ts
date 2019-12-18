@@ -4,21 +4,21 @@ import { Skills } from './Skills';
 
 export class Player {
 
-	id: Number = 123;
+	id: number = 123;
 
-	characterName: String = "";
-	level: Number = 1;
+	characterName: string = "";
+	level: number = 1;
 
 	inventory: Inventory;
 	equipment: Equipment;
 	skills: Skills;
 
 
-	constructor(characterName: String) {
+	constructor(characterName: string) {
 		this.id = this.getNewID();
 	}
 
-
+	// [TO-DO] Write actual ID feature
 	getNewID() {
 		return 123;
 	}

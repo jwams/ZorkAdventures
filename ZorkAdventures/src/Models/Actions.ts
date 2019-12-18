@@ -3,10 +3,10 @@ export class Actions {
 
 
 
-	constructor(name: String) {}
+	constructor(name: string) {}
 
 
   use() {}
 
-  pull(context:String[]) {}
+  pull(context:string[]) {}
 }

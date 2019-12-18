@@ -1,8 +1,8 @@
 export class Item {
-	
-	name:String = "";
-	description: String = "";
-	
-	
-	constructor(name: String) {}
+
+	name: string = "";
+	description: string = "";
+
+
+	constructor(name: string) {}
 }

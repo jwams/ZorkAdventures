@@ -1,4 +1,4 @@
 export class Inventory {
-	
-	constructor(name: String) {}
+
+	constructor(name: string) {}
 }

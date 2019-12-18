@@ -3,9 +3,9 @@ import { Actions } from './Actions'
 
 export class Cell {
 
-	id: Number;
-	x: Number;
-	y: Number
+	id: number;
+	x: number;
+	y: number
 
 	enterText: String = "";
 	items:Item[];
@@ -18,7 +18,7 @@ export class Cell {
 
 	cellClicked: boolean = false;
 
-	constructor(id: Number, x: Number, y:Number) {
+	constructor(id: number, x: number, y: number) {
 		this.id = id;
 		this.x = x;
 		this.y = y;
