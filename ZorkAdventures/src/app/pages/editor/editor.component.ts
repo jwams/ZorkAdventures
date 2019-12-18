@@ -8,8 +8,8 @@ import { Map } from '../../../Models/Map';
 })
 
 export class EditorComponent implements OnInit {
-	
-	map: Map = new Map(10);
+
+	map: Map = new Map(16);
 
 	constructor() {
 		console.log(this.map.mapLayout[9][9]);
@@ -18,8 +18,12 @@ export class EditorComponent implements OnInit {
 	ngOnInit() {
 		this.setup();
 	}
-	
-	
+
+  selectNewCell(x: number, y: number) {
+    this.map.unclickAllCells();
+    this.map.mapLayout[x][y].cellClicked = !this.map.mapLayout[x][y].cellClicked;
+  }
+
 	setup() {
 		console.log("Setup HIT");
 	}

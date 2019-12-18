@@ -4,17 +4,17 @@
 			Test
 		</div>
 		<div class="col-6 border">
-			<table>
-				<tr *ngFor="let cells of map.mapLayout;" class="border" width="20" height="20">
-					
-					<td *ngFor="let cell of cells;" class="border" width="20" height="20">
-						{{cell.test}}
+			<table border="2">
+				<tr *ngFor="let cells of map.mapLayout;" class="" width="20" height="20">
+
+					<td id="cell.id" *ngFor="let cell of cells;" class="cell" (click)="selectNewCell(cell.x, cell.y)" [ngClass]="cell.cellClicked ? 'clicked' : 'notClicked'">
+						<div class="topRightCorner"><span style="position: relative">{{cell.x}},{{cell.y}}</span></div>
 					</td>
 				</tr>
-				
+
 			</table>
 		</div>
-		
+
 		<div class="col-4 border">
 			Test
 		</div>

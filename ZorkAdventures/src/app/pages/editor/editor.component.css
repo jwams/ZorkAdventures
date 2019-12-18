@@ -1,4 +1,27 @@
 .border {
 	border-style: solid;
-	border-width: 1;
+	border-width: 2;
+}
+
+.cell {
+
+	height: 80px;
+	width: 80px;
+	padding: 0;
+	position: relative;
+}
+
+.topRightCorner {
+	top: 0;
+	right: 0;
+	position: absolute;
+	padding: 3px;
+}
+
+.clicked {
+	background-color: red;
+}
+
+.notClicked {
+	background-color: white;
 }
