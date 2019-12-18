@@ -1,0 +1,11 @@
+Cell:
+
+enterText: The paragraph that will be displayed when the player enters this cell.
+items: The collection of the item objects in the room
+
+Map:
+
+Item:
+
+name: name of item
+description: description of item

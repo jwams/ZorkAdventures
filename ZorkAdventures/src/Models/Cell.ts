@@ -1,6 +1,11 @@
+import { Item } from './Item';
+
 export class Cell {
-	test: String = "test";
-	
+
+	enterText: String = "";
+	items:Item[];
+	options:Options;
+
 	constructor() {}
-	
+
 }
