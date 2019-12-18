@@ -1,10 +1,11 @@
 import { Item } from './Item';
+import { Actions } from './Actions'
 
 export class Cell {
 
 	enterText: String = "";
 	items:Item[];
-	options:Options;
+	options:Actions;
 
 	constructor() {}
 

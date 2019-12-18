@@ -15,7 +15,7 @@ export class Player {
 
 
 	constructor(characterName: String) {
-		this.id = getNewID();
+		this.id = this.getNewID();
 	}
 
 
